@@ -15,9 +15,7 @@
     transition-delay: 0s;*/
 
     transition: all 0.3s;
-
 }
-
 .btn:hover{
     
     transform: translateY(4px);
@@ -27,4 +25,18 @@
     border-color: rgb(211, 66, 115);
 }
 
+.incognito{
+    background-color: white;
+    border: 0px;
+    position: absolute;
+  top: 150px;
+  left: 60px;
+}
 
+img{
+    padding: 10px;
+    transition: all 0.3s;
+}
+img:hover{
+    transform: translateY(100px);
+}
