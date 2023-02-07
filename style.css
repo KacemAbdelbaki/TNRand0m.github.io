@@ -1,14 +1,26 @@
-.btn{
+#div1{
     text-align: center;
+    margin-top: 5px;
+}
+
+#incodiv{
+    width: 110px;
+    height: 30px;
+}
+
+button{
+    margin: 0.5%;
+}
+
+.btn{
     font-weight: bold;
     font-size: large;
-    color: rgb(211, 66, 115);
-    background-color: #FFE6EE;
-    border-color: rgb(211, 66, 115);
+    color: grey;
+    background-color: #95D8EB;
 
     border: 5px solid ;
     padding: 1%;
-    border-radius: 2.5px;
+    border-radius: 5px;
 
     /*transition-property: transform;
     transition-duration: 0.3s;
@@ -17,26 +29,28 @@
     transition: all 0.3s;
 }
 .btn:hover{
-    
     transform: translateY(4px);
-    background-color: rgb(211, 66, 115);
+    background-color: grey;
     color: white;
+    
     border: 5px solid ;
-    border-color: rgb(211, 66, 115);
+    border-color: grey;
 }
 
 .incognito{
     background-color: white;
     border: 0px;
-    position: absolute;
-  top: 150px;
-  left: 60px;
+    position: relative;
+    top: 9px;
+    left: 47px;
 }
 
-img{
-    padding: 10px;
+#hackerimg{
+    position: relative;
+    margin: 5px;
     transition: all 0.3s;
+    width: 100px
 }
-img:hover{
-    transform: translateY(100px);
+#hackerimg:hover{
+    transform: translateY(50px);
 }
